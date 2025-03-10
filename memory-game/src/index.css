@@ -12,7 +12,34 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3vw;
+  align-items: center;
+  justify-content: center;
+}
+.card{
+  background-color: #171616;
+  padding: 0.5vw;
+  border-radius: 0.6vw;
+}
+.card > img{
+  height: 20vh;
+  width: auto;
+}
+.card > h3{
+  font-size: x-large;
+  text-align: center;
+  margin: 0;
+}
+.scores{
+  display: flex;
+  justify-content: space-around;
+}
+.scores > h1{
+  margin: 0.2vh;
+}
 a {
   font-weight: 500;
   color: #646cff;
