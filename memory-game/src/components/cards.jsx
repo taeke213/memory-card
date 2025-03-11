@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { mergeSort } from "./sort"
+import { mergeSort } from "../sort"
 
 export function CreateCards(){
     const [highscore, setHighscore] = useState(0)
